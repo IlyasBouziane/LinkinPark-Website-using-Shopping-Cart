@@ -3,15 +3,23 @@
     <head>
         <title>Linkin Park</title>
         <meta name="description" content="This is the description">
+        <link rel="stylesheet" href="styles.css">
     </head>
     <body>
         <header>
             <!-- TODO : find a suitable background -->
             <nav>
                 <ul>
-                    <li>HOME</li>
-                    <li>STORE</li>
-                    <li>ABOUT</li>
+                    <a href="index.html">
+                        <li>HOME</li>
+                    </a>
+                    <a href="store.html">
+                        <li>STORE</li>
+                    </a>
+                    <a href="about.html">
+                        <li>ABOUT</li>
+                    </a>
+                    
                 </ul>
             </nav>
             <hr>
@@ -67,19 +75,20 @@
         <footer>
             <hr>
             <h3>Linkin Park</h3>
+            <!-- the attribute target (_blank | _self ) allows us to open the link in a new tab -->
             <ul>
                 <li>
-                    <a href="https://www.facebook.com">
+                    <a href="https://www.facebook.com" target="_blank">
                         <img src="Images/Facebook Logo.png">
                     </a>
                 </li>
                 <li>
-                    <a href="https://www.spotify.com">
+                    <a href="https://www.spotify.com" target="_blank">
                         <img src="Images/Spotify Logo.png">
                     </a>
                 </li>
                 <li>
-                    <a href="https://www.youtube.com">
+                    <a href="https://www.youtube.com" target="_blank">
                         <img src="Images/YouTube Logo.png">
                     </a>        
                 </li>
