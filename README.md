@@ -4,3 +4,8 @@ Hi! I choose to develop this project to help beginners in Web Development to sta
 
 ## V1.0
 Only HTML
+
+## V1.1
+HTML using CSS
+
+
