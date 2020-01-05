@@ -6,6 +6,9 @@ Hi! I choose to develop this project to help beginners in Web Development to sta
 Only HTML
 
 ## V1.1
-HTML using CSS
+CSS added
+
+## V1.2
+JavaScript added
 
 
