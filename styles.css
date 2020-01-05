@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400");
+
+*{
+    box-sizing: border-box; /* the width attribute takes into account the padding as well */
+    font-family: Raleway;
+    columns: #777777;
+
+}
+
+html,body{
+    margin: 0;
+    padding: 0;
+
+}
+.nav ul{
+    margin: 0;
+}
+
+.nav li{
+    display: inline;
+    padding-left: 40px;
+
+}
+
+
+.nav a {
+    display: inline-block;
+    text-decoration: none;
+    color:white;
+    padding: 0.5em;
+}
+.nav a:hover{
+    background-color: rgba(255, 255, 255,0.3);
+}
+.nav{
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: bolder;
+    border-bottom: 1px solid rgba(255, 255, 255,0.5);
+}
+
+.main-header{
+    background-color: rgba(0, 0, 0, 0.1);
+    background-image: url(Images/background.jpg);
+    background-size: cover;
+    background-blend-mode: multiply;
+    padding-bottom: 30px;
+    
+}
