@@ -6,93 +6,95 @@
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <header>
+        <header class="main-header"> 
             <!-- TODO : find a suitable background -->
-            <nav>
+            <nav class="nav main-nav">
                 <ul>
-                    <a href="index.html">
-                        <li>HOME</li>
-                    </a>
-                    <a href="store.html">
-                        <li>STORE</li>
-                    </a>
-                    <a href="about.html">
-                        <li>ABOUT</li>
-                    </a>
+                    <li>
+                        <a  href="index.html">HOME</a>
+                    </li>
+                    <li>
+                        <a href="store.html">STORE</a>
+                    </li>
+                    <li>
+                        <a href="about.html">ABOUT</a>
+                    </li>
                     
                 </ul>
             </nav>
-            <hr>
-            <h1>Linkin Park</h1>
-            <button>Get Our Latest Album</button>
-            <br><br>
+            <h1 class="band-name band-name-large">Linkin Park</h1>
+            <div class="container">
+                <button class="btn btn-header">Get Our Latest Album</button>
+            </div>
+           
             <!-- This entity allows us to use a play button -->
-            <button>&#9658;</button>
+            <button class="btn btn-header btn-play  ">&#9658;</button>
         </header>
-        <section>
-            <h2>Last Tours (2017)</h2>
+        <section class="container"> 
+            <h2 class="title-section">Last Tours (2017)</h2>
             <div>
                 <!-- I put &lt;&gt; between span blocks just to make space between them -->
-                <div>
-                    <strong>OCT 27</strong>&lt;&gt;
-                    <span>Hollywood Bowl</span>&lt;&gt;
-                    <span>Los Angeles,CA</span>&lt;&gt;
-                    <button type="button">WATCH RECORDED CsONCERT</button>
+                <div class="tour-row">
+                    <strong class="tour-item tour-date">OCT 27</strong>
+                    <span class="tour-item tour-arena">Hollywood Bowl</span>
+                    <span class="tour-item tour-city">Los Angeles,CA</span>
+                    <button class="tour-item tour-btn btn-primary" type="button">WATCH RECORDED CONCERT</button>
                 </div>
-                <hr>
-                <div>
-                    <strong>JULY 07</strong>&lt;&gt;
-                    <span>Manchester Arena</span>&lt;&gt;
-                    <span>Manchester, United Kingdom</span>&lt;&gt;
-                    <button type="button">WATCH RECORDED CONCERT</button>
+             
+                <div class="tour-row">
+                    <strong  class="tour-item tour-date">JULY 07</strong>
+                    <span class="tour-item tour-arena">Manchester Arena</span>
+                    <span class="tour-item tour-city">Manchester, United Kingdom</span>
+                    <button type="button" class="tour-item tour-btn btn-primary">WATCH RECORDED CONCERT</button>
                 </div>
-                <hr>
-                <div>
-                    <strong>JULY 06</strong>&lt;&gt;
-                    <span>Barclaycard Arena</span>&lt;&gt;
-                    <span>Birmingham, United Kingdom</span>&lt;&gt;
-                    <button type="button">WATCH RECORDED CONCERT</button>
+         
+                <div class="tour-row">
+                    <strong  class="tour-item tour-date">JULY 06</strong>
+                    <span class="tour-item tour-arena "> Barclaycard Arena</span>
+                    <span class="tour-item tour-city">Birmingham, United Kingdom</span>
+                    <button type="button" class="tour-item tour-btn btn-primary">WATCH RECORDED CONCERT</button>
                 </div>
-                <hr>
-                <div>
-                    <strong>JULY 04</strong>&lt;&gt;
-                    <span>O2 Academy Brixton</span>&lt;&gt;
-                    <span>London, United Kingdom</span>&lt;&gt;
-                    <button type="button">WATCH RECORDED CONCERT</button>
-                </div>
-                <hr>
-                <div>
-                    <strong>JULY 03</strong>&lt;&gt;
-                    <span>The 02</span>&lt;&gt;
-                    <span>London, United Kingdom</span>&lt;&gt;
-                    <button type="button">WATCH RECORDED CONCERT</button>
+
+                <div class="tour-row">
+                    <strong  class="tour-item tour-date">JULY 04</strong>
+                    <span class="tour-item tour-arena">O2 Academy Brixton</span>
+                    <span class="tour-item tour-city">London, United Kingdom</span>
+                    <button type="button" class="tour-item tour-btn btn-primary">WATCH RECORDED CONCERT</button>
+                </div> 
+   
+                <div class="tour-row">
+                    <strong  class="tour-item tour-date">JULY 03</strong>
+                    <span class="tour-item tour-arena">The 02</span>
+                    <span class="tour-item tour-city">London, United Kingdom</span>
+                    <button type="button" class="tour-item tour-btn btn-primary">WATCH RECORDED CONCERT</button>
                 </div>
                 
             </div>
 
         </section>
 
-        <footer>
-            <hr>
-            <h3>Linkin Park</h3>
-            <!-- the attribute target (_blank | _self ) allows us to open the link in a new tab -->
-            <ul>
-                <li>
-                    <a href="https://www.facebook.com" target="_blank">
-                        <img src="Images/Facebook Logo.png">
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.spotify.com" target="_blank">
-                        <img src="Images/Spotify Logo.png">
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.youtube.com" target="_blank">
-                        <img src="Images/YouTube Logo.png">
-                    </a>        
-                </li>
-            </ul>
+        <footer class="main-footer">
+            <div class="main-footer-container">
+                <h3 class="band-name">Linkin Park</h3>
+                <!-- the attribute target (_blank | _self ) allows us to open the link in a new tab -->
+                <ul class = "nav footer-nav">
+                    <li>
+                        <a href="https://www.facebook.com" target="_blank">
+                            <img src="Images/Facebook Logo.png">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.spotify.com" target="_blank">
+                            <img src="Images/Spotify Logo.png">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com" target="_blank">
+                            <img src="Images/YouTube Logo.png">
+                        </a>        
+                    </li>
+                </ul>
+            </div>
         </footer>
     </body>    
 </html>
