@@ -11,4 +11,33 @@ CSS added
 ## V1.2
 JavaScript added
 
+## Screenshots 
+
+Home page
+<img src="screenshots/home1.jpg"
+width="250"
+height="600"/>
+<img src="screenshots/home2.jpg"
+width="250"
+height="600"/>
+Store page
+<img src="screenshots/store1.jpg"
+width="250"
+height="600"/>
+<img src="screenshots/store2.jpg"
+width="250"
+height="600"/>
+<img src="screenshots/store3.jpg"
+width="250"
+height="600"/>
+About page
+<img src="screenshots/about1.jpg"
+width="250"
+height="600"/>
+<img src="screenshots/about2.jpg"
+width="250"
+height="600"/>
+
+
+
 
