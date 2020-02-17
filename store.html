@@ -3,137 +3,144 @@
     <head>
         <title>Linkin Park | Store</title>
         <meta name="description" content="This is the description">
+        <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <header>
-            <nav>
+        <header class="main-header"> 
+            <!-- TODO : find a suitable background -->
+            <nav class="nav main-nav">
                 <ul>
-                    <a href="index.html">
-                        <li>HOME</li>
-                    </a>
-                    <a href="store.html">
-                        <li>STORE</li>
-                    </a>
-                    <a href="about.html">
-                        <li>ABOUT</li>
-                    </a>
+                    <li>
+                        <a  href="index.html">HOME</a>
+                    </li>
+                    <li>
+                        <a href="store.html">STORE</a>
+                    </li>
+                    <li>
+                        <a href="about.html">ABOUT</a>
+                    </li>
                     
                 </ul>
             </nav>
-            <hr>
-            <h1>Linkin Park</h1>
+            <h1 class="band-name band-name-large">Linkin Park</h1>
         </header>
-        <section>
-            <h2>MUSIC</h2>
-            <div>
-                <div>
-                    <strong>Hybrid Theory</strong>
-                    <div>
+        <section class="container" > 
+            <h2 class="title-section">MUSIC</h2>
+            <div class="shop-items">
+                <div class="shop-item">
+                    <span class="shop-item-title">Hybrid Theory</span>
+                    <div class="shop-item-image">
                         <img src="Images/album1.jpg" width="200">
                     </div>
-                    <div>
-                        <span>EUR 11,99</span>
-                        <button type="button">ADD TO CART</button>
+                    <div class ="shop-item-details">
+                        <span class="shop-item-price">EUR 11,99</span>
+                        <button class ="btn btn-primary" type="button">ADD TO CART</button>
                     </div>
                 </div>
-                <div>
-                    <strong>Meteora</strong>
-                    <div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Meteora</span>
+                    <div  class="shop-item-image">
                         <img src="Images/album2.jpg" width="200">
                     </div>
-                    <div>
-                        <span>EUR 9,98</span>
-                        <button type="button">ADD TO CART</button>
+                    <div  class="shop-item-details">
+                        <span  class="shop-item-price">EUR 9,98</span>
+                        <button class ="btn btn-primary" type="button">ADD TO CART</button>
                     </div>
                 </div>
-                <div>
-                    <strong>Minutes To Midnight</strong>
-                    <div>
+                <div  class="shop-item">
+                    <span  class="shop-item-title">Minutes To Midnight</span>
+                    <div  class="shop-item-image">
                         <img src="Images/album3.jpg" width="200">
                     </div>
-                    <div>
-                        <span>EUR 6,99</span>
-                        <button type="button">ADD TO CART</button>
+                    <div  class="shop-item-details">
+                        <span  class="shop-item-price">EUR 6,99</span>
+                        <button class ="btn btn-primary" type="button">ADD TO CART</button>
                     </div>
                 </div>
-                <div>
-                    <strong>Living Things</strong>
-                    <div>
+                <div  class="shop-item">
+                    <span  class="shop-item-title">Living Things</span>
+                    <div  class="shop-item-image">
                         <img src="Images/album4.jpg" width="200">
                     </div>
-                    <div>
-                        <span>EUR 6,99</span>
-                        <button type="button"> ADD TO CART</button>
+                    <div  class="shop-item-details">
+                        <span  class="shop-item-price">EUR 6,99</span>
+                        <button class ="btn btn-primary" type="button"> ADD TO CART</button>
                     </div>
                 </div>
             </div>    
         </section>
 
-        <section>
-            <h2>MERCH</h2>
-            <div>
-                <div>
-                    <strong>T-Shirt</strong>
-                    <div>
+        <section class = "container">
+            <h2 class="title-section">MERCH</h2>
+            <div class="shop-items">
+                <div class="shop-item">
+                    <span class="shop-item-title">T-Shirt</span>
+                    <div class="shop-item-image">
                         <img src="Images/tshirt.jpg" width="200">
                     </div>
-                    <div>
-                        <span>EUR 6,99</span>
-                        <button type="button">ADD TO CART</button>
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">EUR 6,99</span>
+                        <button class ="btn btn-primary" type="button">ADD TO CART</button>
                     </div>
                 </div>
-                <div>
-                    <strong>Necklace</strong>
-                    <div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Necklace</span>
+                    <span class="shop-item-image">
                         <img src="Images/collier.jpg" width="200">
-                    </div>
-                    <div>
-                        <span>EUR 14,20</span>
-                        <button type="button">ADD TO CART</button>
+                        </span>
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">EUR 14,20</span>
+                        <button class ="btn btn-primary" type="button">ADD TO CART</button>
                     </div>
                 </div>
-
             </div>
            
         </section>
-        <section>
-            <h2>CART</h2>
-            <div>
+        <section class = "container">
+            <h2 class="title-section">CART</h2>
+            <div class = "cart-items">
 
-                <div>
-                    <span>ITEM</span>&lt;&gt;
-                    <span>PRICE</span>&lt;&gt;
-                    <span>QUANTITY</span>
+                <div class="cart-row">
+                    <span class="cart-column cart-header cart-item ">ITEM</span>
+                    <span class="cart-column cart-header cart-price ">PRICE</span>
+                    <span class="cart-column cart-header cart-quantity ">QUANTITY</span>
                 </div>
-                <div>
-                    <img src="Images/tshirt.jpg" width="100">
-                    <span>T-Shirt</span>&lt;&gt;
-                    <span>EUR 6,99</span>&lt;&gt;
-                    <input type="number" value="1">&lt;&gt;
-                    <button type="button">REMOVE</button>
+                <div class="cart-row">
+                    <div class="cart-column cart-item ">
+                        <img class = "cart-item-image" src="Images/tshirt.jpg" width="100">
+                        <span class="cart-item-title">T-Shirt</span>
+                    </div>
+                    <span class="cart-column cart-price ">EUR 6,99</span>
+                    <div class="cart-column cart-quantity ">
+                        <input class="cart-item-quantity" type="number" value="1">
+                        <button class ="btn btn-danger" type="button">REMOVE</button>
+                    </div>   
                 </div>
-                <div>
-                    <img src="Images/album2.jpg" width="100">
-                    <span>Meteora</span>&lt;&gt;
-                    <span>EUR 9,98</span>&lt;&gt;
-                    <input type="number" value="2">&lt;&gt;
-                    <button type="button">REMOVE</button>
+                <div class="cart-row">
+                    <div class="cart-column cart-item">
+                        <img class="cart-item-image" src="Images/album2.jpg" width="100">
+                        <span class="cart-item-title">Meteora</span>
+                    </div>
+                    <span class="cart-column cart-price">EUR 9,98</span>
+                    <div class="cart-column cart-quantity">
+                        <input class="cart-item-quantity" type="number" value="2">
+                        <button class ="btn btn-danger" type="button">REMOVE</button>
+                    </div>     
                 </div>
             </div>
-            <hr>
-            <div>
-                <strong>Total</strong>
-                <span>EUR 16,97</span>
+            <div class="cart-total"> 
+                <span class="cart-total-title">Total</span>
+                <span class="cart-total-price">EUR 16,97</span>
             </div>
             <div>
-                <button type="button">PURCHASE</button>
+                <button  class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
             </div>
         </section>
-        <footer>
-            <hr>
-            <h3>Linkin Park</h3>
+        <footer class="main-footer">
+            <div class="main-footer-container">
+                <h3 class="band-name">Linkin Park</h3>
             <!-- the attribute target (_blank | _self ) allows us to open the link in a new tab -->
-            <ul>
+            <ul class="nav footer-nav">
                 <li>
                     <a href="https://www.facebook.com" target="_blank">
                         <img src="Images/Facebook Logo.png">
@@ -150,6 +157,7 @@
                     </a>        
                 </li>
             </ul>
+            </div>
         </footer>
     </body>    
 </html>
